@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.topButton{
+  margin-top: 20px;
+}
+.botButton{
+  margin-bottom: 20px;
+}
+
+#topOfAnExpense{
+  margin-top: 10px;
+}
+
+#topLi{
+  margin-top: 10px;
+}
+
+
+.expenseList {
+  border-top: 2px dashed black;
+  border-bottom: 2px dashed black;
+  margin-bottom: -2px;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: block;
+  width: 100%;
+  margin-left: 0;
+}
+
+h4 {
+  margin: 0;
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
